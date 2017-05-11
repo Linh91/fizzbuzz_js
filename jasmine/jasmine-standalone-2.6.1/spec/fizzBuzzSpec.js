@@ -21,10 +21,10 @@ describe('fizz', function() {
     });
   });
 
-  // describe('when multiples of 5', function() {
-  //   it('returns "Buzz"', function() {
-  //     expect(fizz.play(5)).toEqual('Buzz');
-  //   })
-  // })
+  describe('when multiples of 5', function() {
+    it('returns "Buzz"', function() {
+      expect(fizz.play(5)).toEqual('Buzz');
+    })
+  })
 
 });

@@ -5,9 +5,9 @@ describe('fizz', function() {
     fizz = new Fizz();
   });
 
-  describe('recieves a number', function() {
+  describe('recieves any other number', function() {
     it('returns the number', function() {
-      expect(fizz.number(3)).toEqual(3);
+      expect(fizz.play(1)).toEqual(1);
     });
   });
 
@@ -35,5 +35,5 @@ describe('fizz', function() {
     it('returns "FizzBuzz"', function() {
       expect(fizz.play(30)).toEqual('FizzBuzz');
     });
-
+  });
 });

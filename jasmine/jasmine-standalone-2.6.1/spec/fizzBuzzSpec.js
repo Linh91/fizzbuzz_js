@@ -24,7 +24,16 @@ describe('fizz', function() {
   describe('when multiples of 5', function() {
     it('returns "Buzz"', function() {
       expect(fizz.play(5)).toEqual('Buzz');
-    })
-  })
+    });
+
+    it('not multiples of 5 return number', function() {
+      expect(fizz.play(7)).toEqual(7);
+    });
+  });
+
+  describe('when multiples of 15', function() {
+    it('returns "FizzBuzz"', function() {
+      expect(fizz.play(30)).toEqual('FizzBuzz');
+    });
 
 });

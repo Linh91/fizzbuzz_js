@@ -15,3 +15,7 @@ This was one of the first program I had ever written and was written in Ruby. To
 
 This gave me the crucial understand of how JavaScript worked along with Jasmine testing. 
 
+## How to run testing
+
+<code>$ open SpecRunner.html </code>
+
